@@ -1,13 +1,13 @@
-package com.example.demo;
+package com.project.crudapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ApiSpringJavaApplication {
+public class CrudApiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ApiSpringJavaApplication.class, args);
+		SpringApplication.run(CrudApiApplication.class, args);
 	}
 
 }
