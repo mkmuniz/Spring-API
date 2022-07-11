@@ -12,13 +12,7 @@ public class Room {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    @Column
-    private int members;
-
     @Column(name = "nome", length = 60)
     private String name;
-
-    @Column
-    private String owner;
 
 }

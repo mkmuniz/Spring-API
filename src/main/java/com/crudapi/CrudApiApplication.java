@@ -16,11 +16,10 @@ public class CrudApiApplication {
 	@Bean
 	CommandLineRunner initDataBase(RoomRepository roomRepository) {
 		return args -> {
-			roomRepository.deleteAll();
 
 			Room r = new Room();
 
-			r.setName("Sala Teste");
+			r.setName("SalaTeste");
 
 			roomRepository.save(r);
 		};
