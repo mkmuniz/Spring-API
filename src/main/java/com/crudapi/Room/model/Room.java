@@ -1,4 +1,4 @@
-package com.crudapi.model;
+package com.crudapi.Room.model;
 
 import lombok.Data;
 

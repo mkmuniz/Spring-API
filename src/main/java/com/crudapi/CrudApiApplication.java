@@ -1,6 +1,6 @@
 package com.crudapi;
 
-import com.crudapi.model.Room;
+import com.crudapi.Room.model.Room;
 import com.crudapi.repository.RoomRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
